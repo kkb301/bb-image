@@ -23,6 +23,7 @@ jobs:
         recipe:
           # !! Add your recipes here 
           - xfce-40-2.yml
+          - mikegnome-40-2.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
