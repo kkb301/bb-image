@@ -12,7 +12,7 @@ image-version: 40 # latest is also supported if you want new updates ASAP
 modules:
   - type: files
     files:
-      - usr: /usr/share/ublue-os/xfceVM/
+      - usr: /usr/share/ublue-os
                   
 
   - type: rpm-ostree
