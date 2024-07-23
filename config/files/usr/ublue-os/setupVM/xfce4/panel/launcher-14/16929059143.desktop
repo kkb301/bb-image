@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Sound down
+Comment=
+Exec=/var/mnt/Data/Home/Documents/scripts/LMSVolDown
+Icon=media-seek-forward-rtl
+Path=
+Terminal=false
+StartupNotify=false

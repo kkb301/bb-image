@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=LMS Toggle
+Comment=
+Exec=/var/mnt/Data/Home/Documents/scripts/LMSToggle
+Icon=media-playlist-shuffle
+Path=
+Terminal=false
+StartupNotify=false

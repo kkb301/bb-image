@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=8;x=960;y=1055"/>
+      <property name="length" type="double" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="31"/>
+      <property name="size" type="uint" value="55"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="7"/>
+        <value type="int" value="3"/>
+        <value type="int" value="1"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="15"/>
+      </property>
+      <property name="mode" type="uint" value="0"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="background-style" type="uint" value="0"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “write error_5g” active: write error_5g (75%)"/>
+        <value type="string" value="wi-fi network connection “write error_5g” active: write error_5g (74%)"/>
+        <value type="string" value="wi-fi network connection “write error_5g” active: write error_5g (72%)"/>
+        <value type="string" value="requesting an ethernet network address for “wired connection 1”…"/>
+        <value type="string" value="wi-fi network connection “write error_5g” active: write error_5g (76%)"/>
+        <value type="string" value="wi-fi network connection “write error_5g” active: write error_5g (69%)"/>
+        <value type="string" value="wi-fi network connection “write error_5g” active: write error_5g (73%)"/>
+        <value type="string" value="configuring wi-fi network connection “write error_5g”…"/>
+        <value type="string" value="ethernet network connection “wired connection 1” active"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="wi-fi network connection “auto write error_5g” active: write error_5g (72%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “auto write error_5g” active: write error_5g (77%) vpn connection active"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="no network connection"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="hp-systray"/>
+        <value type="string" value="Back In Time"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="MEGAsync"/>
+        <value type="string" value="Vorta"/>
+        <value type="string" value="blueman"/>
+      </property>
+      <property name="icon-size" type="int" value="37"/>
+      <property name="hidden-items" type="array">
+        <value type="string" value="blueman"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="known-players" type="string" value="Firefox;vlc;VLC media player (Blu-ray)"/>
+    </property>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="digital-time-font" type="string" value="Sans 13"/>
+      <property name="digital-date-font" type="string" value="Sans 14"/>
+      <property name="mode" type="uint" value="2"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-7" type="string" value="whiskermenu">
+      <property name="launcher-show-tooltip" type="bool" value="false"/>
+      <property name="launcher-icon-size" type="int" value="5"/>
+      <property name="category-icon-size" type="int" value="2"/>
+      <property name="view-mode" type="int" value="0"/>
+      <property name="favorites-in-recent" type="bool" value="true"/>
+      <property name="position-commands-alternate" type="bool" value="true"/>
+      <property name="position-categories-alternate" type="bool" value="true"/>
+      <property name="profile-shape" type="int" value="2"/>
+      <property name="menu-width" type="int" value="1367"/>
+      <property name="menu-height" type="int" value="912"/>
+      <property name="show-command-lockscreen" type="bool" value="false"/>
+      <property name="command-switchuser" type="string" value="dm-tool switch-to-greeter"/>
+      <property name="show-command-restart" type="bool" value="true"/>
+      <property name="show-command-shutdown" type="bool" value="true"/>
+      <property name="show-command-suspend" type="bool" value="true"/>
+      <property name="show-command-logout" type="bool" value="false"/>
+      <property name="favorites" type="array">
+        <value type="string" value="xfce4-screenshooter.desktop"/>
+        <value type="string" value="virt-manager.desktop"/>
+        <value type="string" value="org.gnome.DiskUtility.desktop"/>
+        <value type="string" value="xarchiver.desktop"/>
+        <value type="string" value="nz.mega.MEGAsync.desktop"/>
+      </property>
+      <property name="recent" type="array">
+        <value type="string" value="nz.mega.MEGAsync.desktop"/>
+        <value type="string" value="xarchiver.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-3" type="string" value="showdesktop"/>
+    <property name="plugin-1" type="string" value="docklike"/>
+    <property name="plugin-15" type="string" value="weather">
+      <property name="location" type="empty">
+        <property name="name" type="string" value="Kirkby-in-Ashfield, Sutton-in-Ashfield"/>
+        <property name="latitude" type="string" value="53.099940"/>
+        <property name="longitude" type="string" value="-1.244851"/>
+      </property>
+      <property name="msl" type="int" value="162"/>
+      <property name="timezone" type="string" value="Europe/London"/>
+      <property name="offset" type="string" value="+01:00"/>
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="units" type="empty">
+        <property name="temperature" type="int" value="0"/>
+        <property name="pressure" type="int" value="2"/>
+        <property name="windspeed" type="int" value="1"/>
+        <property name="precipitation" type="int" value="1"/>
+        <property name="altitude" type="int" value="1"/>
+        <property name="apparent-temperature" type="int" value="0"/>
+      </property>
+      <property name="round" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="tooltip-style" type="int" value="1"/>
+      <property name="forecast" type="empty">
+        <property name="layout" type="int" value="1"/>
+        <property name="days" type="int" value="2"/>
+      </property>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/liquid"/>
+      <property name="scrollbox" type="empty">
+        <property name="show" type="bool" value="true"/>
+        <property name="animate" type="bool" value="true"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="use-color" type="bool" value="false"/>
+      </property>
+    </property>
+  </property>
+</channel>

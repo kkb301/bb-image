@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Sound up
+Comment=
+Exec=/var/mnt/Data/Home/Documents/scripts/LMSVolUp
+Icon=media-seek-backward-rtl
+Path=
+Terminal=false
+StartupNotify=false
