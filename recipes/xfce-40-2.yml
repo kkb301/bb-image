@@ -13,7 +13,6 @@ modules:
   - type: files
     files:
       - xfce: /usr/share/ublue-os
-      - mega: /usr/etc/yum.repos.d
                 
 
   - type: rpm-ostree
@@ -34,7 +33,6 @@ modules:
     - lightdm-gtk-greeter-settings
     - thunar-media-tags-plugin
     - firewall-config
-    - megasync
     remove:
     - nvtop
     - xfce4-terminal
