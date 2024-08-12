@@ -12,7 +12,7 @@ image-version: 40 # latest is also supported if you want new updates ASAP
 modules:
   - type: files
     files:
-       - gnome: /usr/share/ublue-os
+       - mike: /usr/share/ublue-os
 
   - type: rpm-ostree
     repos:
