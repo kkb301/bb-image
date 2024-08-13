@@ -1,3 +1,7 @@
+flatpak remote-add --if-not-exists --system flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-delete fedora
+
+
 flatpak install -y app.devsuite.Ptyxis
 flatpak install -y com.borgbase.Vorta
 flatpak install -y com.brave.Browser
