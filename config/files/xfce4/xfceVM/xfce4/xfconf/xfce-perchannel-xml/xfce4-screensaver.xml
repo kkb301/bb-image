@@ -6,6 +6,7 @@
     <property name="idle-activation" type="empty">
       <property name="delay" type="int" value="30"/>
     </property>
+    <property name="enabled" type="bool" value="false"/>
   </property>
   <property name="lock" type="empty">
     <property name="enabled" type="bool" value="false"/>

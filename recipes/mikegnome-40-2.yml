@@ -26,6 +26,7 @@ modules:
     - xdotool
     - libadwaita
     - neofetch
+    - fastfetch
     - gparted
     - simple-scan
     - hplip-gui

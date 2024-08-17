@@ -1,10 +1,11 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=LMS Toggle
+Name=Toggle LMS
 Comment=
 Exec=/var/mnt/Data/Home/Documents/scripts/LMSToggle
-Icon=media-playlist-shuffle
+Icon=accessories-media-converter
 Path=
 Terminal=false
 StartupNotify=false
+X-XFCE-Source=file:///home/kevin/.local/share/applications/Toggle%20LMS.desktop

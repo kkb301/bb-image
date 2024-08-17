@@ -1,3 +1,2 @@
 [user]
-pinned=org.gnome.Terminal;thunar;org.mozilla.firefox;
-showPreviews=true
+pinned=thunar;app.devsuite.Ptyxis;org.mozilla.firefox;net.giuspen.cherrytree;org.keepassxc.KeePassXC;org.geany.Geany;org.gnome.Epiphany.WebApp_16d0e530d80c921f3fc76711403a9cfa09c1e793;org.gnome.Epiphany.WebApp_ce893bd2c0ec1669d27de827505df983b96bd08a;virt-manager;

@@ -6,4 +6,14 @@
       <property name="Device_Enabled" type="int" value="0"/>
     </property>
   </property>
+  <property name="ImPS2_Logitech_Wheel_Mouse" type="empty">
+    <property name="Properties" type="empty">
+      <property name="Device_Enabled" type="int" value="0"/>
+    </property>
+  </property>
+  <property name="FTCS100000_28080101_Mouse" type="empty">
+    <property name="Properties" type="empty">
+      <property name="Device_Enabled" type="int" value="0"/>
+    </property>
+  </property>
 </channel>

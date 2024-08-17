@@ -1,10 +1,11 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Sound up
+Name=LMS Sound up
 Comment=
 Exec=/var/mnt/Data/Home/Documents/scripts/LMSVolUp
-Icon=media-seek-backward-rtl
+Icon=go-up
 Path=
 Terminal=false
 StartupNotify=false
+X-XFCE-Source=file:///home/kevin/.local/share/applications/LMS%20Sound%20up.desktop

@@ -1,7 +1,7 @@
 
 rpm-ostree upgrade
 
-# fix podman error
+# fix podman error if problem with distrobox
 
 mkdir .local/share/containers/storage/volumes
 
@@ -20,7 +20,7 @@ usermod -a -G libvirt kevin
 exit
 
 # turn of auto updates
-#sudo nano /etc/rpm-ostreed.conf  stage to none
+sudo nano /etc/rpm-ostreed.conf  stage to none
 
 
 # optional if permission issue when first trying to create
@@ -35,11 +35,6 @@ exit
 
 #  dconf load / < gnome-desktop
 
-# extensions
-#appind
-#dashtodock
-#smartmove
 
-#touchpad
-#power stuff
-#tweaks
+
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfdashboard" version="1.0">
+  <property name="theme" type="string" value="xfdashboard-mint"/>
+  <property name="enabled-plugins" type="array">
+    <value type="string" value="hot-corner"/>
+  </property>
+  <property name="components" type="empty">
+    <property name="applications-view" type="empty">
+      <property name="show-all-apps" type="bool" value="true"/>
+    </property>
+  </property>
+</channel>

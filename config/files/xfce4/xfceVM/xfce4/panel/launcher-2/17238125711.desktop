@@ -1,10 +1,11 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Sound down
+Name=LMS Sound Down
 Comment=
 Exec=/var/mnt/Data/Home/Documents/scripts/LMSVolDown
-Icon=media-seek-forward-rtl
+Icon=go-down
 Path=
 Terminal=false
 StartupNotify=false
+X-XFCE-Source=file:///home/kevin/.local/share/applications/LMS%20Sound%20Down.desktop
