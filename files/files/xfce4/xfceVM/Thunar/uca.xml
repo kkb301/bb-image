@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1685373447151691-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Open as root</name>
+	<submenu></submenu>
+	<unique-id>1689001178285117-1</unique-id>
+	<command>pkexec thunar %f</command>
+	<description>Open as root</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Toggle hidden files</name>
+	<submenu></submenu>
+	<unique-id>1689001237758661-2</unique-id>
+	<command>xdotool key &quot;ctrl+h&quot;</command>
+	<description>Toggle hidden files</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Convert to JPEG</name>
+	<submenu></submenu>
+	<unique-id>1695837030725541-1</unique-id>
+	<command>convert %f -quality 75 %f.jpg</command>
+	<description>Convert to JPEG</description>
+	<range>*</range>
+	<patterns>*.png</patterns>
+	<image-files/>
+</action>
+</actions>
