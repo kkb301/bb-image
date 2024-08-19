@@ -57,11 +57,11 @@
     <property name="plugin-22" type="string" value="whiskermenu">
       <property name="favorites" type="array">
         <value type="string" value="virt-manager.desktop"/>
+        <value type="string" value="VM Viewer.desktop"/>
         <value type="string" value="org.gnome.DiskUtility.desktop"/>
         <value type="string" value="org.gnome.Logs.desktop"/>
         <value type="string" value="io.github.shiftey.Desktop.desktop"/>
         <value type="string" value="Update.desktop"/>
-        <value type="string" value="VM Viewer.desktop"/>
         <value type="string" value="backintime-qt.desktop"/>
       </property>
       <property name="launcher-icon-size" type="int" value="5"/>
@@ -71,16 +71,16 @@
       <property name="position-categories-alternate" type="bool" value="true"/>
       <property name="profile-shape" type="int" value="0"/>
       <property name="recent" type="array">
+        <value type="string" value="com.brave.Browser.flextop.brave-agimnkijcaahngcdmfeangaknmldooml-Default.desktop"/>
+        <value type="string" value="com.brave.Browser.desktop"/>
+        <value type="string" value="xfce4-dict.desktop"/>
+        <value type="string" value="org.libreoffice.LibreOffice.calc.desktop"/>
+        <value type="string" value="org.strawberrymusicplayer.strawberry.desktop"/>
+        <value type="string" value="org.videolan.VLC.desktop"/>
         <value type="string" value="backintime-qt.desktop"/>
         <value type="string" value="org.gnome.Epiphany.WebApp_ce893bd2c0ec1669d27de827505df983b96bd08a.desktop"/>
         <value type="string" value="org.gnome.Epiphany.desktop"/>
         <value type="string" value="org.gnome.Epiphany.WebApp_16d0e530d80c921f3fc76711403a9cfa09c1e793.desktop"/>
-        <value type="string" value="org.geany.Geany.desktop"/>
-        <value type="string" value="org.gnome.Logs.desktop"/>
-        <value type="string" value="org.keepassxc.KeePassXC.desktop"/>
-        <value type="string" value="net.giuspen.cherrytree.desktop"/>
-        <value type="string" value="app.devsuite.Ptyxis.desktop"/>
-        <value type="string" value="org.mozilla.firefox.desktop"/>
       </property>
       <property name="show-command-lockscreen" type="bool" value="false"/>
       <property name="show-command-logout" type="bool" value="false"/>
@@ -106,6 +106,8 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="icon-size" type="int" value="35"/>
       <property name="known-items" type="array">
+        <value type="string" value="vlc"/>
+        <value type="string" value="strawberry"/>
         <value type="string" value="Back In Time"/>
         <value type="string" value="Vorta"/>
         <value type="string" value="MEGAsync"/>
@@ -135,7 +137,7 @@
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="known-players" type="string" value="org.mozilla.firefox"/>
+      <property name="known-players" type="string" value="Brave;org.mozilla.firefox;org.strawberrymusicplayer.strawberry.desktop;vlc"/>
       <property name="show-notifications" type="bool" value="true"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
