@@ -12,9 +12,15 @@ image-version: 40 # latest is also supported if you want new updates ASAP
 modules:
   - type: files
     files:
-      - xfce4: /usr/share/ublue-os
-      - nordrepo: /etc  
-      - nordkey: /etc          
+      #- xfce4: /usr/share/ublue-os
+      #- nordrepo: /etc  
+      #- nordkey: /etc  
+      
+      - source: xfce4   
+        destination: /usr/share/ublue-os
+        
+      - source: nordrepo  
+        destination: /etc        
 
   - type: rpm-ostree
     repos:

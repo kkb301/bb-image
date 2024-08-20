@@ -22,8 +22,21 @@ exit
 # turn of auto updates
 sudo nano /etc/rpm-ostreed.conf  stage to none
 
+# set up nordvpn
+sudo systemctl enable --now nordvpnd.service
 
-# optional if permission issue when first trying to create
+sudo su
+grep -E '^nordvpn:' /usr/lib/group >> /etc/group
+usermod -a -G nordvpn kevin
+exit
+
+nordvpn allowlist add subnet 192.168.0.0/16
+or 
+nordvpn set lan-discovery on
+
+nordvpn login --token
+
+# optional if permission virt-manager  issue when first trying to create
 
 #sudo restorecon -rv /var/lib/libvirt
 #sudo restorecon -rv /var/log/libvirt
@@ -33,7 +46,7 @@ sudo nano /etc/rpm-ostreed.conf  stage to none
 #add next line to end
 #  i8042.reset i8042.nomux i8042.nopnp i8042.noloop
 
-#  dconf load / < gnome-desktop
+
 
 
 
