@@ -13,7 +13,8 @@ modules:
   - type: files
     files:
       - xfce4: /usr/share/ublue-os
-                
+      - nordrepo: /etc  
+      - nordkey: /etc          
 
   - type: rpm-ostree
     repos:
@@ -34,6 +35,7 @@ modules:
     - lightdm-gtk-greeter-settings
     - thunar-media-tags-plugin
     - firewall-config
+    - nordvpn
     remove:
     - nvtop
     - xfce4-terminal
