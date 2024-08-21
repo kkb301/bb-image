@@ -1,5 +1,5 @@
 name=MEGAsync
 baseurl=https://mega.nz/linux/repo/Fedora_40/
-gpgkey=https://mega.nz/linux/repo/Fedora_40/repodata/repomd.xml.key
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Megasync
 gpgcheck=1
 enabled=1
