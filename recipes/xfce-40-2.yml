@@ -39,6 +39,7 @@ modules:
     - thunar-media-tags-plugin
     - firewall-config
     - nordvpn
+    - megasync
     remove:
     - nvtop
     - xfce4-terminal
