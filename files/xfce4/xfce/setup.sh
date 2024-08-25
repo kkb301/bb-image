@@ -38,6 +38,7 @@ nordvpn set lan-discovery on
 
 nordvpn login --token
 
+
 # optional if permission virt-manager  issue when first trying to create
 
 #sudo restorecon -rv /var/lib/libvirt
