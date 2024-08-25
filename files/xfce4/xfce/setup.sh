@@ -11,8 +11,6 @@ distrobox-create --name uduntu_box --image ububtu:latest
 distrobox-enter ubuntu_box
 wget https://mega.nz/linux/repo/xUbuntu_24.04/amd64/megasync-xUbuntu_24.04_amd64.deb && sudo apt install "$PWD/megasync-xUbuntu_24.04_amd64.deb"
 distrobox-export --app megasync
-sudo apt install backintime-qt
-distrobox-export --app backintime-qt
 exit
 
 # set up virt manager user
