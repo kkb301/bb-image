@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: ucore-40-1
+name: ucore-40-2
 # description will be included in the image's metadata
 description: This is my personal OS image.
 
