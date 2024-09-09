@@ -26,8 +26,8 @@ modules:
     - backintime-qt
     - virt-manager
     - virt-viewer
-    - gnome-disk-utility
-    - gnome-terminal
+    # - gnome-disk-utility
+    - ptyxis
     - xdotool
     - wavemon
     - fastfetch
