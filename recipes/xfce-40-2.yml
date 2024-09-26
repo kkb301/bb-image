@@ -38,7 +38,7 @@ modules:
     - lightdm-gtk-greeter-settings
     - thunar-media-tags-plugin
     - firewall-config
-    - nordvpn
+    # - nordvpn
     remove:
     - nvtop
     - xfce4-terminal
