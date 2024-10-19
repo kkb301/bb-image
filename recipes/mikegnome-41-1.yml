@@ -25,7 +25,6 @@ modules:
     - gnome-logs
     - xdotool
     - libadwaita
-    - neofetch
     - fastfetch
     - gparted
     - simple-scan
