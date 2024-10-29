@@ -30,8 +30,8 @@ modules:
     - nemo-fileroller
     - nemo-image-converter
     - nemo-audio-tab
-    - gnome-shell-extension-appindicator  
-    - gnome-session-xsession
+    #- gnome-shell-extension-appindicator  
+    #- gnome-session-xsession
     remove:
       #- firefox # default firefox removed in favor of flatpak
       #- firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
@@ -39,13 +39,13 @@ modules:
       #- nautilus
       #- gnome-classic-session
       #- gnome-terminal-nautilus
-      #- gnome-shell-extension-apps-menu
-      #- gnome-shell-extension-background-logo
-      #- gnome-shell-extension-launch-new-instance
-      #- gnome-shell-extension-places-menu
-      #- gnome-shell-extension-window-list
-      #- gnome-software-rpm-ostree
-      #- gnome-software
+      - gnome-shell-extension-apps-menu
+      - gnome-shell-extension-background-logo
+      - gnome-shell-extension-launch-new-instance
+      - gnome-shell-extension-places-menu
+      - gnome-shell-extension-window-list
+      - gnome-software-rpm-ostree
+      - gnome-software
       
 
   
