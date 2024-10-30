@@ -31,7 +31,7 @@ modules:
     - nemo-image-converter
     - nemo-audio-tab
     - gnome-shell-extension-appindicator  
-    - gnome-session-xsession
+    # - gnome-session-xsession
 
     remove:
       #- firefox # default firefox removed in favor of flatpak
