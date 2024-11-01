@@ -13,8 +13,8 @@ modules:
   - type: files
     files:
     
-    - source: gnome   
-        destination: /usr/share/ublue-os
+        - source: gnome
+          destination: /usr/share/ublue-os
      
 
   - type: rpm-ostree
