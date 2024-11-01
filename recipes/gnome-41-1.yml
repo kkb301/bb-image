@@ -12,7 +12,10 @@ image-version: 41 # latest is also supported if you want new updates ASAP
 modules:
   - type: files
     files:
-      - gnome: /usr/share/ublue-os
+    
+    - source: gnome   
+        destination: /usr/share/ublue-os
+     
 
   - type: rpm-ostree
     repos:
@@ -30,7 +33,8 @@ modules:
     - nemo-fileroller
     - nemo-image-converter
     - nemo-audio-tab
-    - gnome-shell-extension-appindicator  
+    - firewall-config
+    # - gnome-shell-extension-appindicator  
     # - gnome-session-xsession 
 
     remove:
