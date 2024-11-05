@@ -34,7 +34,7 @@ modules:
     - f37-backgrounds-gnome
     - f38-backgrounds-gnome 
     - f39-backgrounds-extras-gnome
-    - xorg-server
+    - sddm-x11
     - gnome-session-xsession
     # - gnome-classic-session-xsession
     - xorg-x11-drv-*
