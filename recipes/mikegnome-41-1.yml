@@ -34,9 +34,10 @@ modules:
     - f37-backgrounds-gnome
     - f38-backgrounds-gnome 
     - f39-backgrounds-extras-gnome
+    - f40-backgrounds-gnome
+    - f40-backgrounds-extras-gnome
     - sddm-x11
     - gnome-session-xsession
-    # - gnome-classic-session-xsession
     - xorg-x11-drv-*
     remove:
     - nvtop
