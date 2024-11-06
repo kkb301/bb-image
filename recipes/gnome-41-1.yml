@@ -43,7 +43,7 @@ modules:
       - nvtop
       - nautilus
       #- gnome-classic-session
-      - gnome-terminal-nautilus
+      #- gnome-terminal-nautilus
       #- gnome-shell-extension-apps-menu
       #- gnome-shell-extension-background-logo
       #- gnome-shell-extension-launch-new-instance
