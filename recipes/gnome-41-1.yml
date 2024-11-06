@@ -42,7 +42,7 @@ modules:
       #- firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
       - nvtop
       - nautilus
-      #- gnome-classic-session
+      - gnome-classic-session
       #- gnome-terminal-nautilus
       #- gnome-shell-extension-apps-menu
       #- gnome-shell-extension-background-logo
