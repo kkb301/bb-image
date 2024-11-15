@@ -1,11 +1,14 @@
 
-rpm-ostree upgrade
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/kkb301/gnome-41-1:41
+rpm-ostree rebase ostree-image-signed:docker://ghcr.io/kkb301/gnome-41-1:41
+
+
 
 # setup a box for megasync
-distrobox-create --name fedora40_box --image fedora:40
-distrobox-enter fedora40_box
+distrobox-create --name fedora41_box --image fedora:41
+distrobox-enter fedora41_box
 sudo dnf install wget
-wget https://mega.nz/linux/repo/Fedora_40/x86_64/megasync-Fedora_40.x86_64.rpm && sudo dnf install "$PWD/megasync-Fedora_40.x86_64.rpm"
+wget https://mega.nz/linux/repo/Fedora_41/x86_64/megasync-Fedora_40.x86_64.rpm && sudo dnf install "$PWD/megasync-Fedora_40.x86_64.rpm"
 distrobox-export --app megasync
 
 # set up virt manager user
@@ -15,7 +18,7 @@ usermod -a -G libvirt kevin
 exit
 
 # turn of auto updates
-#sudo nano /etc/rpm-ostreed.conf  stage to none
+sudo nano /etc/rpm-ostreed.conf  ###  stage to none
 
 
 # optional if permission issue when first trying to create
@@ -28,7 +31,7 @@ exit
 #add next line to end
 #  i8042.reset i8042.nomux i8042.nopnp i8042.noloop
 
-#  dconf load / < gnome-desktop
+
 
 # extensions
 #appind
