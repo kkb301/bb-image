@@ -1,0 +1,10 @@
+[Unit]
+Description=daily run in backintime
+
+
+[Timer]
+Unit=backintime.service
+OnCalendar=*-*-* 08:00:00
+
+[Install]
+WantedBy=timers.target

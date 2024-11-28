@@ -1,0 +1,9 @@
+[Unit]
+Description=daily run of flatpak update
+Wants=flatpak.timer
+
+[Service]
+Type=oneshot
+ExecStart=flatpak update -y
+
+

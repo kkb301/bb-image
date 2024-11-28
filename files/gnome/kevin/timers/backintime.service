@@ -1,0 +1,9 @@
+[Unit]
+Description=daily run of backintime
+Wants=backintime.timer
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/backintime backup
+
+

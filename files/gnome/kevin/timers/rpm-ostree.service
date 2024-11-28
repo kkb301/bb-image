@@ -1,0 +1,9 @@
+[Unit]
+Description=daily run of rpm-ostree
+Wants=rpm-ostree.timer
+
+[Service]
+Type=oneshot
+ExecStart=/home/kevin/.scripts/rpm-update.sh
+
+

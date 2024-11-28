@@ -1,0 +1,10 @@
+[Unit]
+Description=daily run rpm-ostree
+
+
+[Timer]
+Unit=rpm-ostree.service
+OnCalendar=Sat *-*-* 08:15:00
+
+[Install]
+WantedBy=timers.target

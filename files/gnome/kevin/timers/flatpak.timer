@@ -1,0 +1,10 @@
+[Unit]
+Description=daily run in flatpakupdate
+
+
+[Timer]
+Unit=flatpak.service
+OnCalendar=*-*-* 08:10:00
+
+[Install]
+WantedBy=timers.target
