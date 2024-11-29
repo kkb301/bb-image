@@ -1,4 +1,5 @@
 
+
 rpm-ostree rebase ostree-unverified-registry:ghcr.io/kkb301/gnome-41-1:41
 rpm-ostree rebase ostree-image-signed:docker://ghcr.io/kkb301/gnome-41-1:41
 
@@ -20,7 +21,9 @@ exit
 # turn of auto updates
 sudo nano /etc/rpm-ostreed.conf  ###  stage to none
 
-
+systemctl --user enable backintime.timer --now
+systemctl --user enable flatpak.timer --now
+systemctl --user enable rpm-ostree.timer --now
 # optional if permission issue when first trying to create
 
 #sudo restorecon -rv /var/lib/libvirt
