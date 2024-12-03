@@ -25,11 +25,16 @@ modules:
     - backintime-qt
     - firefox
     - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-
+    - mint-y-icons
+    - mint-y-theme
+    - nemo
+    - nemo-fileroller
+    - nemo-image-converter
+    - nemo-audio-tab
     remove:
      
      # - nvtop
-     
+     - gnome-software
       
 
   
