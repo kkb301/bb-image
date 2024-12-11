@@ -17,7 +17,7 @@ modules:
           destination: /usr/share/ublue-os
      
         - source: background
-          destination: /usr/share/backgrounds
+          destination: /usr/share/pixmaps
 
   - type: rpm-ostree
     repos:
