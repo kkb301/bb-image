@@ -46,12 +46,10 @@ modules:
       - gnome-software
       
   - type: gnome-extensions
-  
   install:
   - Blur my Shell 
   - AppIndicator and KStatusNotifierItem Support
   - Dash to Panel
-  
   uninstall:
   - Background Logo
   - Launch new instance
