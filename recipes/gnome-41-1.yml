@@ -45,7 +45,8 @@ modules:
       - nvtop
       - gnome-software
       
-  type: gnome-extensions
+  - type: gnome-extensions
+  
   install:
  
   - Blur my Shell 
