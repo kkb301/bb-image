@@ -20,7 +20,7 @@ modules:
         #  destination: /usr/share/pixmaps
 
   - type: rpm-ostree
-    #repos:
+    #  repos:
     #- https://repository.mullvad.net/rpm/stable/mullvad.repo
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
@@ -47,10 +47,10 @@ modules:
       #- gnome-classic-session
       #- gnome-terminal-nautilus
       #- gnome-shell-extension-apps-menu
-      #- gnome-shell-extension-background-logo
-      #- gnome-shell-extension-launch-new-instance
-      #- gnome-shell-extension-places-menu
-      #- gnome-shell-extension-window-list
+      - gnome-shell-extension-background-logo
+      - gnome-shell-extension-launch-new-instance
+      - gnome-shell-extension-places-menu
+      - gnome-shell-extension-window-list
       ##- gnome-software-rpm-ostree
       - gnome-software
       
