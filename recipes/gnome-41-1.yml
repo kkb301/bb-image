@@ -43,17 +43,21 @@ modules:
       #- firefox # default firefox removed in favor of flatpak
       #- firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
       - nvtop
-      #- nautilus
-      #- gnome-classic-session
-      #- gnome-terminal-nautilus
-      #- gnome-shell-extension-apps-menu
-      - gnome-shell-extension-background-logo
-      - gnome-shell-extension-launch-new-instance
-      - gnome-shell-extension-places-menu
-      - gnome-shell-extension-window-list
-      ##- gnome-software-rpm-ostree
       - gnome-software
       
+  type: gnome-extensions
+  install:
+ 
+  - Blur my Shell 
+  - AppIndicator and KStatusNotifierItem Support
+  - Dash to Panel
+  
+  uninstall:
+  - Background Logo
+  - Launch new instance
+  - Places Status Indicator
+  - Window List
+ 
 
   
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
