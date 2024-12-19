@@ -50,11 +50,7 @@ modules:
     - Blur my Shell 
     - AppIndicator and KStatusNotifierItem Support
     - Dash to Panel
-    uninstall:
-    - Background Logo
-    - Launch new instance
-    - Places Status Indicator
-    - Window List
+   
  
 
   
