@@ -44,13 +44,14 @@ modules:
       #- firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
       - nvtop
       - gnome-software
+      - gnome-classic-session
       
   - type: gnome-extensions
     install:
     - Blur my Shell 
     - AppIndicator and KStatusNotifierItem Support
     - Dash to Panel
-   
+    - Bluetooth Quick Connect
  
 
   
