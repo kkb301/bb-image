@@ -37,8 +37,7 @@ modules:
     - nemo-image-converter
     - nemo-audio-tab
     - firewall-config
-    # - gnome-shell-extension-appindicator  
-    # - gnome-session-xsession 
+    
 
     remove:
       #- firefox # default firefox removed in favor of flatpak
@@ -49,6 +48,8 @@ modules:
       - gnome-shell-extension-launch-new-instance
       - gnome-shell-extension-places-menu
       - gnome-shell-extension-window-list
+      - gnome-shell-extension-background-logo
+      - gnome-shell-extension-apps-menu
       
   - type: gnome-extensions
     install:
@@ -57,6 +58,8 @@ modules:
     - Dash to Panel
     - Bluetooth Quick Connect
     - Grand Theft Focus
+    - Executor
+    - Launcher
  
 
   
