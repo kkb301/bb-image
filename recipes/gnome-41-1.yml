@@ -45,6 +45,9 @@ modules:
       - nvtop
       - gnome-software
       - gnome-classic-session
+      - gnome-shell-extension-launch-new-instance
+      - gnome-shell-extension-places-menu
+      - gnome-shell-extension-window-list
       
   - type: gnome-extensions
     install:
