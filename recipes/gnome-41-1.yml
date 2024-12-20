@@ -27,6 +27,7 @@ modules:
     - backintime-qt
     - virt-manager
     - virt-viewer
+    - keepassxc
     - mint-y-icons
     - mint-y-theme
     - wavemon
