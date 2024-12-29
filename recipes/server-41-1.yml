@@ -4,7 +4,7 @@ name: server-41-1
 description: My customised silverblue image includes a few packages - mainly VM stuff
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-main
+base-image: ghcr.io/ublue-os/bluefin
 image-version: 41 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -37,8 +37,9 @@ modules:
     - nemo-image-converter
     - nemo-audio-tab
     - firewall-config
-    - tigervnc
-    
+    - firefox
+    - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+
 
     remove:
       #- firefox # default firefox removed in favor of flatpak
