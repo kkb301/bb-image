@@ -50,7 +50,7 @@ modules:
       - gnome-shell-extension-launch-new-instance
       - gnome-shell-extension-places-menu
       - gnome-shell-extension-window-list
-      - gnome-shell-extension-background-logo
+      #- gnome-shell-extension-background-logo
       - gnome-shell-extension-apps-menu
       
   - type: gnome-extensions
