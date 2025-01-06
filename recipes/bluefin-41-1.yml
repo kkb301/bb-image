@@ -52,11 +52,9 @@ modules:
       - gnome-shell-extension-apps-menu
       - gnome-shell-extension-dash-to-dock
       - gnome-shell-extension-caffeine
-      - gnome-shell-extension-gsconnect
       - gnome-shell-extension-logo-menu
       - gnome-shell-extension-search-light
       - gnome-shell-extension-tailscale-gnome-qs
-      - gnome-shell-extension-user-theme
       
   - type: gnome-extensions
     install:
