@@ -15,6 +15,8 @@ modules:
     
         - source: gnome
           destination: /usr/share/ublue-os
+        - source: nordrepo
+          destination: /etc
      
 
   - type: rpm-ostree
@@ -22,12 +24,12 @@ modules:
     #- https://repository.mullvad.net/rpm/stable/mullvad.repo
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
-    - backintime-qt
+    #- backintime-qt
     #- virt-manager
     #- virt-viewer
     #- keepassxc
-    - mint-y-icons
-    - mint-y-theme
+    #- mint-y-icons
+    #- mint-y-theme
     #- wavemon
     #- fastfetch
     - nemo
@@ -37,7 +39,7 @@ modules:
     #- firewall-config
     - firefox
     - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-
+    - nordvpn
 
     remove:
       #- firefox # default firefox removed in favor of flatpak
