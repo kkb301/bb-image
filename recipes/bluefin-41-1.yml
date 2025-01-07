@@ -4,7 +4,7 @@ name: bluefin-41-1
 description: My customised silverblue image includes a few packages - mainly VM stuff
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bluefin-dx
+base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 41 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -36,9 +36,7 @@ modules:
     - nemo-fileroller
     - nemo-image-converter
     - nemo-audio-tab
-    #- firewall-config
-    - firefox
-    - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+    - firewall-config
     - nordvpn
 
     remove:
@@ -50,13 +48,8 @@ modules:
       - gnome-shell-extension-launch-new-instance
       - gnome-shell-extension-places-menu
       - gnome-shell-extension-window-list
-      #- gnome-shell-extension-background-logo
+      - gnome-shell-extension-background-logo
       - gnome-shell-extension-apps-menu
-      - gnome-shell-extension-dash-to-dock
-      - gnome-shell-extension-caffeine
-      - gnome-shell-extension-logo-menu
-      - gnome-shell-extension-search-light
-      - gnome-shell-extension-tailscale-gnome-qs
       
   - type: gnome-extensions
     install:
