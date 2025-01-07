@@ -15,8 +15,8 @@ modules:
     
         - source: gnome
           destination: /usr/share/ublue-os
-        - source: nordrepo
-          destination: /etc
+        #- source: nordrepo
+        #  destination: /etc
      
 
   - type: rpm-ostree
@@ -31,13 +31,13 @@ modules:
     #- mint-y-icons
     #- mint-y-theme
     #- wavemon
-    #- fastfetch
+    - fastfetch
     - nemo
     - nemo-fileroller
     - nemo-image-converter
     - nemo-audio-tab
-    - firewall-config
-    - nordvpn
+    #- firewall-config
+    #- nordvpn
 
     remove:
       #- firefox # default firefox removed in favor of flatpak
