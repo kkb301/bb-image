@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: bluefin-41-1
+name: gnomevm-41-1
 # description will be included in the image's metadata
 description: My customised silverblue image includes a few packages - mainly VM stuff
 

@@ -22,7 +22,7 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here 
-          - bluefin-41-1.yml
+          - gnomevm-41-1.yml
           #- mikegnome-40-2.yml
           #- xfce-41-1.yml
           - mikegnome-41-1.yml
