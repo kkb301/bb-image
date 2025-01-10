@@ -14,7 +14,7 @@ flatpak install -y org.geany.Geany
 distrobox-create --name fedora41_box --image fedora:41
 distrobox-enter fedora41_box
 sudo dnf install wget
-wget https://mega.nz/linux/repo/Fedora_41/x86_64/megasync-Fedora_40.x86_64.rpm && sudo dnf install "$PWD/megasync-Fedora_40.x86_64.rpm"
+wget https://mega.nz/linux/repo/Fedora_41/x86_64/megasync-Fedora_41.x86_64.rpm && sudo dnf install "$PWD/megasync-Fedora_40.x86_64.rpm"
 distrobox-export --app megasync
 
 # set up virt manager user
@@ -25,6 +25,12 @@ exit
 
 # turn of auto updates
 sudo nano /etc/rpm-ostreed.conf  ###  stage to none
+
+#copy timers to /var/home/kevin/.config/systemd/user
+mkdir .config/systemd
+mkdir .config/systemd/user
+cp -a /usr/share/ublue-os/kevin/timers/. .config/systemd/user
+
 
 systemctl --user enable backintime.timer --now
 systemctl --user enable flatpak.timer --now
@@ -39,12 +45,6 @@ systemctl --user enable rpm-ostree.timer --now
 #add next line to end
 #  i8042.reset i8042.nomux i8042.nopnp i8042.noloop
 
-
-
-# extensions
-#appind
-#dashtodock
-#smartmove
 
 #touchpad
 #power stuff
