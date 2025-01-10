@@ -4,6 +4,11 @@ rpm-ostree rebase ostree-unverified-registry:ghcr.io/kkb301/gnome-41-1:41
 rpm-ostree rebase ostree-image-signed:docker://ghcr.io/kkb301/gnome-41-1:41
 
 
+flatpak remote-add --if-not-exists --system flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-delete fedora
+flatpak install -y org.keepassxc.KeePassXC
+flatpak install -y io.github.vikdevelop.SaveDesktop
+flatpak install -y org.geany.Geany
 
 # setup a box for megasync
 distrobox-create --name fedora41_box --image fedora:41
