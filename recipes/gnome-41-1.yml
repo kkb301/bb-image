@@ -14,10 +14,10 @@ modules:
     files:
     
         - source: gnome
-          destination: /usr/share/ublue-os
+          destination: /usr/share
      
-        - source: nordrepo
-          destination: /etc
+        #- source: nordrepo
+        #  destination: /etc
      
 
   - type: rpm-ostree
@@ -37,7 +37,7 @@ modules:
     - nemo-image-converter
     - nemo-audio-tab
     - firewall-config
-    - nordvpn
+    #- nordvpn
 
     remove:
       #- firefox # default firefox removed in favor of flatpak

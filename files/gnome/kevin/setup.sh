@@ -1,11 +1,16 @@
 
+#  for info
+ 
+#rpm-ostree rebase ostree-unverified-registry:ghcr.io/kkb301/gnome-41-1:41
+#rpm-ostree rebase ostree-image-signed:docker://ghcr.io/kkb301/gnome-41-1:41
 
-rpm-ostree rebase ostree-unverified-registry:ghcr.io/kkb301/gnome-41-1:41
-rpm-ostree rebase ostree-image-signed:docker://ghcr.io/kkb301/gnome-41-1:41
-
+# set up environment + flathub remove fedora
 
 flatpak remote-add --if-not-exists --system flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak remote-delete fedora
+
+# vital flatpaks to setup
+
 flatpak install -y org.keepassxc.KeePassXC
 flatpak install -y io.github.vikdevelop.SaveDesktop
 flatpak install -y org.geany.Geany
@@ -29,7 +34,7 @@ sudo nano /etc/rpm-ostreed.conf  ###  stage to none
 #copy timers to /var/home/kevin/.config/systemd/user
 mkdir .config/systemd
 mkdir .config/systemd/user
-cp -a /usr/share/ublue-os/kevin/timers/. .config/systemd/user
+cp -a /usr/share/kevin/timers/. .config/systemd/user
 
 
 systemctl --user enable backintime.timer --now
