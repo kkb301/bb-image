@@ -32,10 +32,13 @@ modules:
     - mint-y-theme
     - wavemon
     - fastfetch
-    - nemo
-    - nemo-fileroller
-    - nemo-image-converter
-    - nemo-audio-tab
+    - Thunar
+    - thunar-media-tags-plugin
+    - xdotool
+    #- nemo
+    #- nemo-fileroller
+    #- nemo-image-converter
+    #- nemo-audio-tab
     - firewall-config
     #- nordvpn
 
