@@ -31,11 +31,12 @@ modules:
     #- mint-y-icons
     #- mint-y-theme
     #- wavemon
+    
     - fastfetch
     - Thunar
     - thunar-media-tags-plugin
     - xdotool
-    
+    #    
     #- nemo
     #- nemo-fileroller
     #- nemo-image-converter
