@@ -33,9 +33,9 @@ modules:
     #- wavemon
     
     - fastfetch
-    - Thunar
-    - thunar-media-tags-plugin
-    - xdotool
+    #- Thunar
+    #- thunar-media-tags-plugin
+    #- xdotool
     #    
     #- nemo
     #- nemo-fileroller
