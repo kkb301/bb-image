@@ -33,6 +33,7 @@ modules:
     #- wavemon
     
     - fastfetch
+    - megasync
     #- Thunar
     #- thunar-media-tags-plugin
     #- xdotool
