@@ -4,7 +4,7 @@ name: gnomevm-41-1
 description: My customised silverblue image includes a few packages - mainly VM stuff
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-main
+base-image: ghcr.io/ublue-os/bluefin-dx
 image-version: 41 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -33,7 +33,8 @@ modules:
     #- wavemon
     
     - fastfetch
-    
+    - firefox
+    - firefox-langpacks 
     #- Thunar
     #- thunar-media-tags-plugin
     #- xdotool
@@ -42,7 +43,7 @@ modules:
     #- nemo-fileroller
     #- nemo-image-converter
     #- nemo-audio-tab
-    #- firewall-config
+    - firewall-config
     #- nordvpn
 
     remove:
