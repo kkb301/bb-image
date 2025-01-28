@@ -4,8 +4,8 @@ name: gnomevm-41-1
 description: My customised silverblue image includes a few packages - mainly VM stuff
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bluefin-dx
-image-version: 41 # latest is also supported if you want new updates ASAP
+base-image: ghcr.io/ublue-os/silverblue-main
+image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -13,8 +13,8 @@ modules:
   - type: files
     files:
     
-        - source: gnome
-          destination: /usr/share/ublue-os
+        #- source: gnome
+        # destination: /usr/share/ublue-os
         #- source: nordrepo
         #  destination: /etc
      
@@ -24,27 +24,10 @@ modules:
     #- https://repository.mullvad.net/rpm/stable/mullvad.repo
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
-    #- backintime-qt
-    #- virt-manager
-    #- virt-viewer
-    #- keepassxc
-    #- mint-y-icons
-    #- mint-y-theme
-    #- wavemon
-    
+      
     - fastfetch
-    - firefox
-    - firefox-langpacks 
-    #- Thunar
-    #- thunar-media-tags-plugin
-    #- xdotool
-    #    
-    #- nemo
-    #- nemo-fileroller
-    #- nemo-image-converter
-    #- nemo-audio-tab
     - firewall-config
-    #- nordvpn
+   
 
     remove:
       #- firefox # default firefox removed in favor of flatpak
@@ -55,7 +38,7 @@ modules:
       - gnome-shell-extension-launch-new-instance
       - gnome-shell-extension-places-menu
       - gnome-shell-extension-window-list
-      #- gnome-shell-extension-background-logo # remove for bluefin
+      - gnome-shell-extension-background-logo # remove for bluefin
       - gnome-shell-extension-apps-menu
       
   - type: gnome-extensions
