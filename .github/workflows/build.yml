@@ -23,7 +23,7 @@ jobs:
         recipe:
           # !! Add your recipes here 
           - gnomevm-41-1.yml
-          #- mikegnome-40-2.yml
+          - mikegnome-40-2.yml
           #- xfce-41-1.yml
           - mikegnome-41-1.yml
           - gnome-41-1.yml
