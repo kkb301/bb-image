@@ -2,8 +2,8 @@
 name: mikegnome-40-2
 # description will be included in the image's metadata
 description: Gnome image based on Silverblue.
-
-# the base image to build on top of (FROM) and the version tag to use
+ 
+#  the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 40 # latest is also supported if you want new updates ASAP
 
