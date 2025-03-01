@@ -46,11 +46,11 @@ modules:
       - nvtop
       - gnome-software
       #- gnome-classic-session
-      - gnome-shell-extension-launch-new-instance
-      - gnome-shell-extension-places-menu
-      - gnome-shell-extension-window-list
-      - gnome-shell-extension-background-logo
-      - gnome-shell-extension-apps-menu
+      #- gnome-shell-extension-launch-new-instance
+      #- gnome-shell-extension-places-menu
+      #- gnome-shell-extension-window-list
+      #- gnome-shell-extension-background-logo
+      #- gnome-shell-extension-apps-menu
       
   - type: gnome-extensions
     install:
