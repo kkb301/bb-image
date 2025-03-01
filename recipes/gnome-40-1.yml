@@ -45,7 +45,7 @@ modules:
       #- firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
       - nvtop
       - gnome-software
-      - gnome-classic-session
+      #- gnome-classic-session
       - gnome-shell-extension-launch-new-instance
       - gnome-shell-extension-places-menu
       - gnome-shell-extension-window-list
