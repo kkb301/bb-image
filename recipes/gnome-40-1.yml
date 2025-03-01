@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: gnome-40-1
+name: gnome-40-2
 # description will be included in the image's metadata
 description: My customised silverblue image includes a few packages - mainly VM stuff
 
