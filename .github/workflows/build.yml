@@ -27,7 +27,7 @@ jobs:
           #- xfce-41-1.yml
           - mikegnome-41-1.yml
           - gnome-41-1.yml
-          #- ucore-40-2.yml
+          - gnome-40-1.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
