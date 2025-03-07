@@ -4,8 +4,8 @@ name: bluefin-lts
 description: My customised silverblue image includes a few packages - mainly VM stuff
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bluefin-lts
-image-version: latest # latest is also supported if you want new updates ASAP
+base-image: ghcr.io/ublue-os/bluefin
+image-version: lts # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
