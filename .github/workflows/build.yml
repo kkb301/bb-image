@@ -24,10 +24,10 @@ jobs:
           # !! Add your recipes here 
           - gnomevm-41-1.yml
           - mikegnome-40-2.yml
-          - bluefin-lts.yml
+          #- bluefin-lts.yml
           - mikegnome-41-1.yml
           - gnome-41-1.yml
-          - gnome-40-1.yml
+          #- gnome-40-1.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
