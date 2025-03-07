@@ -24,7 +24,7 @@ modules:
     #  repos:
     #- https://repository.mullvad.net/rpm/stable/mullvad.repo
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-    install:
+    #install:
     #- backintime-qt
     #- virt-manager
     #- virt-viewer
@@ -37,7 +37,7 @@ modules:
     #- nemo-fileroller
     #- nemo-image-converter
     #- nemo-audio-tab
-    - firewall-config
+    #- firewall-config
     #- nordvpn
 
     #remove:
