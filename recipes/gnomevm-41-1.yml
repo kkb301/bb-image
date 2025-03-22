@@ -34,12 +34,12 @@ modules:
       #- firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
       - nvtop
       - gnome-software
-      - gnome-classic-session
-      - gnome-shell-extension-launch-new-instance
-      - gnome-shell-extension-places-menu
-      - gnome-shell-extension-window-list
-      - gnome-shell-extension-background-logo # remove for bluefin
-      - gnome-shell-extension-apps-menu
+      #- gnome-classic-session
+      #- gnome-shell-extension-launch-new-instance
+      #- gnome-shell-extension-places-menu
+      #- gnome-shell-extension-window-list
+      #- gnome-shell-extension-background-logo # remove for bluefin
+      #- gnome-shell-extension-apps-menu
       
   - type: gnome-extensions
     install:
