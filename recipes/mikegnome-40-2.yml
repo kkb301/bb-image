@@ -36,6 +36,8 @@ modules:
     - f39-backgrounds-extras-gnome
     - f40-backgrounds-gnome
     - f40-backgrounds-extras-gnome
+    - firefox # default firefox removed in favor of flatpak
+    - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
     #- sddm-x11
     #- gnome-session-xsession
     #- xorg-x11-drv-*
