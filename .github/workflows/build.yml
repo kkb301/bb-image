@@ -23,9 +23,9 @@ jobs:
         recipe:
           # !! Add your recipes here 
           - gnomevm-41-1.yml
-          - mikegnome-40-2.yml
+          - mikegnome-42-1.yml
           #- bluefin-lts.yml
-          #- mikegnome-41-1.yml
+          - mikegnome-41-1.yml
           - gnome-41-1.yml
           - gnome-42-1.yml
     steps:
