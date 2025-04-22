@@ -23,6 +23,7 @@ modules:
     - thunar-media-tags-plugin
     - gnome-boxes
     - gnome-logs
+    - gnome-tweaks
     - xdotool
     - libadwaita
     - fastfetch

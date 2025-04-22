@@ -32,7 +32,8 @@ modules:
     #- mint-y-theme
     #- wavemon
     - fastfetch
-    - gnome-shell-extension-appindicator   
+    - gnome-shell-extension-appindicator  
+    - gnome-tweaks 
     #- nemo
     #- nemo-fileroller
     #- nemo-image-converter
