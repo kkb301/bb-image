@@ -1,11 +1,11 @@
 # image will be published to ghcr.io/<user>/<name>
-name: bluefin-lts
+name: cosmic
 # description will be included in the image's metadata
 description: My customised silverblue image includes a few packages - mainly VM stuff
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bluefin
-image-version: lts # latest is also supported if you want new updates ASAP
+base-image: ghcr.io/ublue-os/cosmic-main
+image-version: 42 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -52,15 +52,7 @@ modules:
       #- gnome-shell-extension-background-logo
       #- gnome-shell-extension-apps-menu
       
-  - type: gnome-extensions
-    install:
-    #- Blur my Shell 
-    #- AppIndicator and KStatusNotifierItem Support
-    - Dash to Panel
-    - Bluetooth Quick Connect
-    - Grand Theft Focus
-    - Executor
-    - Launcher
+  
  
 
   
