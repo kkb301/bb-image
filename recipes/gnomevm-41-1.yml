@@ -34,7 +34,7 @@ modules:
       #- firefox # default firefox removed in favor of flatpak
       #- firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
       - nvtop
-      - gnome-software
+      #- gnome-software
       #- gnome-classic-session
       #- gnome-shell-extension-launch-new-instance
       #- gnome-shell-extension-places-menu
