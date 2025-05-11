@@ -39,7 +39,7 @@ modules:
     #- nemo-image-converter
     #- nemo-audio-tab
     - firewall-config
-    - nordvpn
+    #- nordvpn
     - nordvpn-gui
 
     remove:
