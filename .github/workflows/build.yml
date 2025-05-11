@@ -22,11 +22,11 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here 
-          #- gnomevm-41-1.yml
+          - gnomevm-41-1.yml
           - mikegnome-42-1.yml
           #- bluefin-lts.yml
-          #- mikegnome-41-1.yml
-          #- gnome-41-1.yml
+          - mikegnome-41-1.yml
+          - gnome-41-1.yml
           - gnome-42-1.yml
           - cosmic.yml
     steps:
