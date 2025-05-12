@@ -40,7 +40,7 @@ modules:
     #- nemo-audio-tab
     - firewall-config
     - nordvpn
-    #- nordvpn-gui
+    - nordvpn-gui
 
     remove:
       #- firefox # default firefox removed in favor of flatpak
