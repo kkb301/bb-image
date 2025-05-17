@@ -20,7 +20,7 @@ modules:
           destination: /etc
           
         - source: nordgui
-          destination: /var
+          destination: /var/opt
      
 
   - type: rpm-ostree
