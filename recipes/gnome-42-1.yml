@@ -25,25 +25,17 @@ modules:
 
   - type: rpm-ostree
   
-    optfix:
-    - nordvpn-gui
+    #  optfix:
+    #- nordvpn-gui
     #  repos:
     #- https://repository.mullvad.net/rpm/stable/mullvad.repo
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
-    #- backintime-qt
     - virt-manager
     - virt-viewer
-    #- mint-y-icons
-    #- mint-y-theme
-    #- wavemon
     - fastfetch
-    - gnome-shell-extension-appindicator  
+    #- gnome-shell-extension-appindicator  
     - gnome-tweaks 
-    #- nemo
-    #- nemo-fileroller
-    #- nemo-image-converter
-    #- nemo-audio-tab
     - firewall-config
     #- nordvpn-gui
     - nordvpn
@@ -64,7 +56,7 @@ modules:
   - type: gnome-extensions
     install:
     - Blur my Shell 
-    #- AppIndicator and KStatusNotifierItem Support
+    - AppIndicator and KStatusNotifierItem Support
     - Dash to Panel
     - Bluetooth Quick Connect
     - Grand Theft Focus
