@@ -37,6 +37,8 @@ modules:
     - f39-backgrounds-extras-gnome
     - f40-backgrounds-gnome
     - f40-backgrounds-extras-gnome
+    - f41-backgrounds-gnome
+    - f41-backgrounds-base
     #- sddm-x11
     #- gnome-session-xsession
     #- xorg-x11-drv-*
