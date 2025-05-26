@@ -25,7 +25,7 @@ modules:
 
   - type: rpm-ostree
   
-      optfix:
+    optfix:
     - nordvpn-gui
     #  repos:
     #- https://repository.mullvad.net/rpm/stable/mullvad.repo
