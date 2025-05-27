@@ -37,7 +37,7 @@ modules:
     #- virt-viewer
     #- fastfetch
     #- gnome-shell-extension-appindicator  
-    - backintime-qt
+    #- backintime-qt
     - gnome-tweaks 
     - firewall-config
     - nordvpn-gui
