@@ -53,8 +53,14 @@ modules:
       - gnome-shell-extension-launch-new-instance
       - gnome-shell-extension-places-menu
       - gnome-shell-extension-window-list
-      #- gnome-shell-extension-background-logo
+      - gnome-shell-extension-caffeine
       - gnome-shell-extension-apps-menu
+      - gnome-shell-extension-gsconnect
+      - gnome-shell-extension-logo-menu
+      - gnome-shell-extension-search-lignt
+      - gnome-shell-extension-tailscale-gnome-qs
+      - gnome-shell-extension-user-theme
+      - gnome-shell-extension-dash-to-dock
       
   - type: gnome-extensions
     install:
