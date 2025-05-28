@@ -57,7 +57,7 @@ modules:
       - gnome-shell-extension-apps-menu
       - gnome-shell-extension-gsconnect
       - gnome-shell-extension-logo-menu
-      - gnome-shell-extension-search-lignt
+      - gnome-shell-extension-search-light
       - gnome-shell-extension-tailscale-gnome-qs
       - gnome-shell-extension-user-theme
       - gnome-shell-extension-dash-to-dock
