@@ -27,7 +27,7 @@ jobs:
           - bluefin.yml
           #- mikegnome-41-1.yml
           #- gnome-41-1.yml
-          - gnome-42-1.yml
+          - aurora.yml
           - cosmic.yml
     steps:
        # the build is fully handled by the reusable github action
