@@ -20,7 +20,7 @@ modules:
           destination: /etc
           
         #- source: nordgui
-        #  destination: /var/opt
+        #  destination: /var/opt 
      
 
   - type: dnf
