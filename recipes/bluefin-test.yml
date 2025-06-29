@@ -34,33 +34,24 @@ modules:
       packages:
     - firefox 
     - firefox-langpacks 
-    #- virt-manager
-    #- virt-viewer
-    #- fastfetch
-    #- gnome-shell-extension-appindicator  
-    #- backintime-qt
     - gnome-tweaks 
     - firewall-config
     - nordvpn-gui
-    #- nordvpn
    
 
     remove:
       packages:
-      - nvtop
-      #- gnome-software
-      - gnome-classic-session
-      - gnome-shell-extension-launch-new-instance
-      - gnome-shell-extension-places-menu
-      - gnome-shell-extension-window-list
-      - gnome-shell-extension-caffeine
-      - gnome-shell-extension-apps-menu
-      #- gnome-shell-extension-gsconnect
-      - gnome-shell-extension-logo-menu
-      - gnome-shell-extension-search-light
-      - gnome-shell-extension-tailscale-gnome-qs
-      #- gnome-shell-extension-user-theme
-      - gnome-shell-extension-dash-to-dock
+    - nvtop
+    - gnome-classic-session
+    - gnome-shell-extension-launch-new-instance
+    - gnome-shell-extension-places-menu
+    - gnome-shell-extension-window-list
+    - gnome-shell-extension-caffeine
+    - gnome-shell-extension-apps-menu
+    - gnome-shell-extension-logo-menu
+    - gnome-shell-extension-search-light
+    - gnome-shell-extension-tailscale-gnome-qs
+    - gnome-shell-extension-dash-to-dock
       
   - type: gnome-extensions
     install:
