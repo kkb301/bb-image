@@ -38,7 +38,20 @@ modules:
         - gnome-tweaks 
         - firewall-config
         - nordvpn-gui
-   
+        
+    remove:
+      packages:
+        - nvtop
+        - gnome-classic-session
+        - gnome-shell-extension-launch-new-instance
+        - gnome-shell-extension-places-menu
+        - gnome-shell-extension-window-list
+        - gnome-shell-extension-caffeine
+        - gnome-shell-extension-apps-menu
+        - gnome-shell-extension-logo-menu
+        - gnome-shell-extension-search-light
+        - gnome-shell-extension-tailscale-gnome-qs
+        - gnome-shell-extension-dash-to-dock
 
  
       
