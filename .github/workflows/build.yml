@@ -25,6 +25,7 @@ jobs:
           #- gnomevm-41-1.yml
           - mikegnome-42-1.yml
           - bluefin.yml
+          - bluefin-test.yml
           #- mikegnome-41-1.yml
           #- gnome-41-1.yml
           - aurora.yml
