@@ -16,28 +16,22 @@ modules:
         - source: nordrepo
           destination: /etc
           
-        #- source: nordgui
-        #  destination: /var/opt
-     
-
-  - type: rpm-ostree
+  - type: dnf
   
     optfix:
     - nordvpn-gui
-    #  repos:
-    #- https://repository.mullvad.net/rpm/stable/mullvad.repo
-      # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-    install:
-    - firefox # default firefox removed in favor of flatpak
-    - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
-    - nordvpn-gui
-  
    
-
-    #remove:
-      #- firefox # default firefox removed in favor of flatpak
-      #- firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
-      
+   
+    install:
+      packages:
+        - firefox 
+        - firefox-langpacks 
+        - backintime-qt
+        - epiphany
+        - keepassxc
+        - geany
+        - nordvpn-gui
+        - https://mega.nz/linux/repo/Fedora_%OS_VERSION%/x86_64/megasync-Fedora_%OS_VERSION%.x86_64.rpm 
       
   
  
