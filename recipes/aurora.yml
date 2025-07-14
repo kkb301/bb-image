@@ -27,7 +27,6 @@ modules:
         - firefox 
         - firefox-langpacks 
         - backintime-qt
-        - epiphany
         - keepassxc
         - geany
         - nordvpn-gui
