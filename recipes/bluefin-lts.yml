@@ -31,12 +31,12 @@ modules:
     install:
       packages:
         - virt-manager
-        - firefox 
-        - firefox-langpacks 
-        - backintime-qt
-        - epiphany
-        - keepassxc
-        - geany
+        #- firefox 
+        #- firefox-langpacks 
+        #- backintime-qt
+        #- epiphany
+        #- keepassxc
+        #- geany
         - nordvpn-gui
         - https://mega.nz/linux/repo/CentOS_Stream_9/x86_64/megasync-CentOS_Stream_9.x86_64.rpm
         
