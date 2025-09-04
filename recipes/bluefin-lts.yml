@@ -1,11 +1,11 @@
 # image will be published to ghcr.io/<user>/<name>
-name: bluefin-lts
+name: bluefin
 # description will be included in the image's metadata
 description: My customised silverblue image includes a few packages - mainly VM stuff
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/bluefin-lts
-image-version: 42 # latest is also supported if you want new updates ASAP
+image-version: lts-testing # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
