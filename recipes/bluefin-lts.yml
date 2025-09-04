@@ -30,6 +30,7 @@ modules:
    
     install:
       packages:
+        - virt-manager
         - firefox 
         - firefox-langpacks 
         - backintime-qt
@@ -37,7 +38,7 @@ modules:
         - keepassxc
         - geany
         - nordvpn-gui
-        - https://mega.nz/linux/repo/Fedora_%OS_VERSION%/x86_64/megasync-Fedora_%OS_VERSION%.x86_64.rpm
+        - https://mega.nz/linux/repo/CentOS_Stream_9/x86_64/megasync-CentOS_Stream_9.x86_64.rpm
         
     remove:
       packages:
