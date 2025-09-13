@@ -31,6 +31,7 @@ modules:
     install:
       packages:
         - virt-manager
+        - qemu*
         #- firefox 
         #- firefox-langpacks 
         #- backintime-qt
