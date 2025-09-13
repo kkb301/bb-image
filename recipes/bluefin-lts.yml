@@ -38,7 +38,7 @@ modules:
         #- keepassxc
         #- geany
         - nordvpn-gui
-        - https://mega.nz/linux/repo/CentOS_Stream_10/x86_64/megasync-CentOS_Stream_10.x86_64.rpm && sudo dnf install "$PWD/megasync-CentOS_Stream_10.x86_64.rpm"
+        - https://mega.nz/linux/repo/CentOS_Stream_10/x86_64/megasync-CentOS_Stream_10.x86_64.rpm
         
     remove:
       packages:
