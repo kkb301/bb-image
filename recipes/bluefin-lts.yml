@@ -32,6 +32,7 @@ modules:
       packages:
         - virt-manager
         - qemu*
+        - firefox
         - nordvpn-gui
                 
     remove:
