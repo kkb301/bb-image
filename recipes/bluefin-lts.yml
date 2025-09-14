@@ -32,15 +32,8 @@ modules:
       packages:
         - virt-manager
         - qemu*
-        #- firefox 
-        #- firefox-langpacks 
-        #- backintime-qt
-        #- epiphany
-        #- keepassxc
-        #- geany
         - nordvpn-gui
-        - https://mega.nz/linux/repo/CentOS_Stream_10/x86_64/megasync-CentOS_Stream_10.x86_64.rpm
-        
+                
     remove:
       packages:
         - nvtop
@@ -62,7 +55,6 @@ modules:
     - Blur my Shell 
     - AppIndicator and KStatusNotifierItem Support
     - Dash to Panel
-    - Bluetooth Quick Connect
     - Grand Theft Focus
     - Executor
     - Launcher
