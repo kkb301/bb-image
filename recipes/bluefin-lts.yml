@@ -30,8 +30,8 @@ modules:
    
     install:
       packages:
-        - virt-manager
-        - qemu*
+        #- virt-manager
+        #- qemu*
         - firefox
         - nordvpn-gui
                 
