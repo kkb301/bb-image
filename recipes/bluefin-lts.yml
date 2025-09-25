@@ -34,6 +34,7 @@ modules:
         #- qemu*
         - firefox
         - nordvpn-gui
+        - firewall-config
                 
     remove:
       packages:
