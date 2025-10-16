@@ -35,6 +35,7 @@ modules:
         - firefox
         - nordvpn-gui
         - firewall-config
+        - mullvad-vpn
                 
     remove:
       packages:
