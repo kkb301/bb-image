@@ -26,7 +26,7 @@ jobs:
           - mikegnome-42-1.yml
           #- bluefin.yml
           - bluefin-lts.yml
-          #- mikegnome-41-1.yml
+          - mikegnome-43-1.yml
           #- gnome-41-1.yml
           #- aurora.yml
           #- cosmic.yml
