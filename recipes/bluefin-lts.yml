@@ -31,8 +31,6 @@ modules:
    
     install:
       packages:
-        #- virt-manager
-        #- qemu*
         - firefox
         - nordvpn-gui
         - firewall-config
