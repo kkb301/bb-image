@@ -33,7 +33,7 @@ modules:
       packages:
         - firefox
         - nordvpn-gui
-        - firewall-config
+        #- firewall-config
         #- mullvad-vpn
                 
     remove:
