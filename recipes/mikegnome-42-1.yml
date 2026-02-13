@@ -15,35 +15,33 @@ modules:
        - mike: /usr/share/ublue-os
 
   - type: dnf
-    #repos:
-      # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
-      packages:
-        - backintime-qt
-        - Thunar
-        - thunar-media-tags-plugin
-        - gnome-boxes
-        - gnome-logs
-        - gnome-tweaks
-        - xdotool
-        - libadwaita
-        - fastfetch
-        - gparted
-        - simple-scan
-        - hplip-gui
-        - xinput
-        - f36-backgrounds-gnome 
-        - f37-backgrounds-gnome
-        - f38-backgrounds-gnome 
-        - f39-backgrounds-extras-gnome
-        - f40-backgrounds-gnome
-        - f40-backgrounds-extras-gnome
-        - f41-backgrounds-gnome
-        - f41-backgrounds-base
+       packages:
+         - backintime-qt
+         - Thunar
+         - thunar-media-tags-plugin
+         - gnome-boxes
+         - gnome-logs
+         - gnome-tweaks
+         - xdotool
+         - libadwaita
+         - fastfetch
+         - gparted
+         - simple-scan
+         - hplip-gui
+         - xinput
+         - f36-backgrounds-gnome 
+         - f37-backgrounds-gnome
+         - f38-backgrounds-gnome 
+         - f39-backgrounds-extras-gnome
+         - f40-backgrounds-gnome
+         - f40-backgrounds-extras-gnome
+         - f41-backgrounds-gnome
+         - f41-backgrounds-base
 
     remove:
-      packages:
-          gnome-software
+       packages:
+         - gnome-software
   
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
