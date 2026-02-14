@@ -55,10 +55,10 @@ modules:
   - type: gnome-extensions
     install:
     - AppIndicator and KStatusNotifierItem Support
-#    - Dash to Panel
-#    - Grand Theft Focus
-#    - Executor
-#    - Launcher
+    - Dash to Panel
+    - Grand Theft Focus
+    - Executor
+    - Launcher
  
 
   
