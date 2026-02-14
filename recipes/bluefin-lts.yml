@@ -52,10 +52,9 @@ modules:
 
  
       
-#  - type: gnome-extensions
-#    install:
-#    - Blur my Shell 
-#    - AppIndicator and KStatusNotifierItem Support
+  - type: gnome-extensions
+    install:
+    - AppIndicator and KStatusNotifierItem Support
 #    - Dash to Panel
 #    - Grand Theft Focus
 #    - Executor
