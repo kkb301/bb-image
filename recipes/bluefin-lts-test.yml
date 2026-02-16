@@ -25,14 +25,14 @@ modules:
   - type: dnf
   
     optfix:
-    - nordvpn-gui
+    #- nordvpn-gui
     #- Mullvad VPN
    
    
     install:
       packages:
-        - firefox
-        - nordvpn-gui
+        #- firefox
+        #- nordvpn-gui
         #- firewall-config
         #- mullvad-vpn
                 
