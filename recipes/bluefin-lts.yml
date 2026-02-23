@@ -33,7 +33,6 @@ modules:
       packages:
         - firefox
         - nordvpn-gui
-        - waydroid
         - firewall-config
         #- mullvad-vpn
                 
