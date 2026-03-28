@@ -1,11 +1,11 @@
 # image will be published to ghcr.io/<user>/<name>
-name: bluefin-lts-test
+name: bluefin-dx
 # description will be included in the image's metadata
 description: My customised silverblue image includes a few packages - mainly VM stuff
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/bluefin-dx
-image-version: lts-testing # latest is also supported if you want new updates ASAP
+image-version: stable # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -22,13 +22,25 @@ modules:
           
 
 
+  - type: dnf
   
+    optfix:
+    - nordvpn-gui
+    #- Mullvad VPN
+   
+   
+    install:
+      packages:
+        - firefox
+        - nordvpn-gui
+        - firewall-config
+        - waydroid
+        #- mullvad-vpn
                 
     
-
  
       
-
+ 
  
 
   
