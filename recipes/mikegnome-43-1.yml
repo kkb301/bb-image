@@ -12,8 +12,15 @@ image-version: latest # latest is also supported if you want new updates ASAP
 modules:
   - type: files
     files:
-       - mike: /usr/share/ublue-os
+        - source: nordrepo
+          destination: /etc
+
   - type: dnf
+  
+    optfix:
+    - nordvpn-gui
+    #- Mullvad VPN  
+    
     install:
        packages:
          - backintime-qt
@@ -37,12 +44,10 @@ modules:
          - f40-backgrounds-extras-gnome
          - f41-backgrounds-gnome
          - f41-backgrounds-base
+         - nordvpn-gui
 
     remove:
        packages:
          - gnome-software
   
-     
-  
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
-
