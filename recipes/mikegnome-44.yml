@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: mikegnome-44
+name: mikegnome-42-1
 # description will be included in the image's metadata
 description: Gnome image based on Silverblue.
 
