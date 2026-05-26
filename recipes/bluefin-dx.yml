@@ -13,9 +13,7 @@ modules:
   - type: files
     files:
     
-        - source: gnome
-          destination: /usr/share
-     
+
         - source: nordrepo
           destination: /etc
           
@@ -26,6 +24,7 @@ modules:
   
     optfix:
     - nordvpn-gui
+  
     #- Mullvad VPN
    
    
@@ -33,8 +32,8 @@ modules:
       packages:
         - firefox
         - nordvpn-gui
-        - firewall-config
         - waydroid
+        - gnome-shell-extension-dash-to-panel
         #- mullvad-vpn
                 
     
