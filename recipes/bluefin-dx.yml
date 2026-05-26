@@ -24,8 +24,7 @@ modules:
   
     optfix:
     - nordvpn-gui
-  
-    #- Mullvad VPN
+      #- Mullvad VPN
    
    
     install:
