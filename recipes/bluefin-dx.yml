@@ -31,7 +31,6 @@ modules:
       packages:
         - firefox
         - nordvpn-gui
-        - waydroid
         - gnome-shell-extension-dash-to-panel
         #- mullvad-vpn
                 

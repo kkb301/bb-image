@@ -1,4 +1,4 @@
-name: bluebuild
+name: silverblue
 on:
   schedule:
     - cron: "00 06 * * sun" # build at 06:00 UTC every day 
@@ -26,7 +26,7 @@ jobs:
           - mikegnome-44.yml
           #- bluefin-lts-test.yml
           #- bluefin-lts.yml
-          - mikegnome-43-1.yml
+          #- mikegnome-43-1.yml
           #- gnome-41-1.yml
           #- aurora.yml
           #- cosmic.yml
