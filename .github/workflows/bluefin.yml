@@ -22,14 +22,9 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here 
-          #- gnomevm-41-1.yml
-          #- mikegnome-42-1.yml
-          - bluefin-dx.yml
+           - bluefin-dx.yml
           #- bluefin-lts.yml
-          #- mikegnome-43-1.yml
-          #- gnome-41-1.yml
-          #- aurora.yml
-          #- cosmic.yml
+          
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
