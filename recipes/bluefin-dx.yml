@@ -22,8 +22,8 @@ modules:
 
   - type: dnf
   
-    #optfix:
-    #- nordvpn-gui
+    optfix:
+    - nordvpn-gui
       #- Mullvad VPN
    
    
@@ -31,8 +31,6 @@ modules:
       packages:
         - firefox
         - firefox-langpacks 
-        - backintime-qt
-        - https://mega.nz/linux/repo/Fedora_44/x86_64/megasync-Fedora_44.x86_64.rpm 
         - nordvpn-gui
         - gnome-shell-extension-dash-to-panel
         #- mullvad-vpn
