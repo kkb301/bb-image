@@ -1,11 +1,11 @@
 # image will be published to ghcr.io/<user>/<name>
-name: bluefin-lts
+name: bluefin
 # description will be included in the image's metadata
 description: My customised silverblue image includes a few packages - mainly VM stuff
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bluefin-dx
-image-version: lts # latest is also supported if you want new updates ASAP
+base-image: ghcr.io/projectbluefin/bluefin
+image-version: stable # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -13,9 +13,7 @@ modules:
   - type: files
     files:
     
-        - source: gnome
-          destination: /usr/share
-     
+             
         - source: nordrepo
           destination: /etc
           
@@ -33,7 +31,6 @@ modules:
       packages:
         - firefox
         - nordvpn-gui
-        - firewall-config
         #- mullvad-vpn
                 
     

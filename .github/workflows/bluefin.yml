@@ -23,7 +23,7 @@ jobs:
         recipe:
           # !! Add your recipes here 
            - bluefin-dx.yml
-          #- bluefin-lts.yml
+           - bluefin-lts.yml
           
     steps:
        # the build is fully handled by the reusable github action
