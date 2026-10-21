@@ -28,6 +28,7 @@ modules:
         - firefox-langpacks 
         - virt-manager
         - nordvpn-gui
+        - fastfetch
        
       
   
