@@ -26,9 +26,12 @@ modules:
       packages:
         - firefox 
         - firefox-langpacks 
+        - qemu
         - virt-manager
+        - virt-viewer
         - nordvpn-gui
         - fastfetch
+        - firewall-config
        
       
   
