@@ -34,7 +34,10 @@ modules:
         - firewall-config
        
       
-  
+    remove:
+      packages:
+        - nvtop
+        - gnome-software
  
 
   
