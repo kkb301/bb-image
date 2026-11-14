@@ -46,6 +46,8 @@ modules:
          - f41-backgrounds-base
          - f43-backgrounds-gnome
          - f43-backgrounds-base
+         - f44-backgrounds-gnome
+         - f44-backgrounds-base
          - nordvpn-gui
 
     remove:
