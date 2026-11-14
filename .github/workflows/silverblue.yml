@@ -24,13 +24,7 @@ jobs:
           # !! Add your recipes here 
           - silverblue.yml
           - mikegnome-44.yml
-          - mikegnome-45.yml
-          #- bluefin-lts-test.yml
-          #- bluefin-lts.yml
-          #- mikegnome-43-1.yml
-          #- gnome-41-1.yml
-          #- aurora.yml
-          #- cosmic.yml
+          
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
