@@ -32,6 +32,7 @@ modules:
         - nordvpn-gui
         - fastfetch
         - firewall-config
+        - wavemon
        
       
     remove:
