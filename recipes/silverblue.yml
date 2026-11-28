@@ -33,6 +33,7 @@ modules:
         - fastfetch
         - firewall-config
         - wavemon
+        - waydroid
        
       
     remove:
